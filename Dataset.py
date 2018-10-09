@@ -43,6 +43,7 @@ class Dataset(object):
                 line = f.readline()
         return mat
 
+    # test set of each user (leave-one-out)
     def load_rating_file_as_list(self, filename):
         ratingList = []
         with open(filename, "r") as f:
@@ -54,6 +55,7 @@ class Dataset(object):
                 line = f.readline()
         return ratingList
 
+    # Random Sample (99+1) from the unobserved interaction
     def load_negative_file(self, filename):
         negativeList = []
         with open(filename, "r") as f:
