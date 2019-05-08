@@ -1,6 +1,6 @@
 # Neural Collaborative Filtering
 
-This is a modified implementation of the following article,which use latest version of keras and tensorflow:
+This is a modified implementation of the following article,which used latest version of keras and tensorflow:
 
 Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017). [Neural Collaborative Filtering.](http://dl.acm.org/citation.cfm?id=3052569) In Proceedings of WWW '17, Perth, Australia, April 03-07, 2017.
 
